@@ -1,0 +1,10 @@
+.barra-busqueda {
+    width: 300px; /* Aumenta el ancho según tus preferencias */
+    margin-right: auto; /* Asegura que la barra no esté alineada a la derecha */
+    margin-left: auto; /* Centra la barra en el espacio disponible */
+    position:absolute;
+    right: 100px;
+    top: 35px;
+    border-radius: 10px;
+    /* Añade más estilos aquí según necesites */
+}

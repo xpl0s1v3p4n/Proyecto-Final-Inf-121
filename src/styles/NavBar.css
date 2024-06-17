@@ -1,0 +1,50 @@
+/*background-image: linear-gradient(to left top, #393e46, #3f505f, #3e6478, #37798f, #288fa2, #409db3, #54acc3, #68bbd4, #97c5e1, #bdd1e8, #dadeeb, #eeeeee);*/ 
+.navBg{
+  background-color: #7469B6;
+  justify-content: center;
+}
+.logoPrincipal{
+  width: 70px;
+  height: 70px;
+  align-items: center;
+}
+.Nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.SearchBar {
+  margin-left: auto;
+}
+
+.imgcel{
+  width: 100%; /* Esto hará que la imagen ocupe el 100% del ancho de su contenedor */
+  height: 500px; /* Esto mantendrá la proporción de la imagen */
+  object-fit:fill;/* Esto cortará la imagen para que cubra el área del contenedor sin distorsionarse */
+}
+
+.iconoInicioSesion {
+  width: 30px; /* Ajusta esto al tamaño que prefieras */
+  height: 30px;
+  margin-right: auto; /* Añade un poco de espacio entre el ícono y el texto */
+  position: absolute;
+  right: 558px;
+}
+.inicioSesion {
+  margin-right: auto; /* Esto empujará la barra de búsqueda hacia la derecha */
+  position: absolute;
+  left: 400px;
+  top: 0px;
+}
+#basic-nav-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Asegúrate de que el menú se despliegue hacia abajo */
+  left: 0; /* Alinea el menú con el botón */
+}
+
+

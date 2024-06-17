@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+.content {
+  flex: 1;
+}
+
+section{
+  color: white;
+  background-image: linear-gradient(to bottom, #7469b6, #8470ba, #9278be, #a080c2, #ad88c6);
+  height:3vh;
+}
+.h1-inicio{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.h2-inicio{
+  display: flex;
+  margin-left: 50px;
+}
+.p-inicio{
+  margin: 0 20px;
+  padding: 10px;
+  text-align: start;
+  border: none;
+  border-Radius: 4px;
+  overflow: auto;
+  height: 400px;
+  width: calc(50% - 40px);
+}

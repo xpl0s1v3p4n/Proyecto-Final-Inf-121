@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+.body-Accesorio{ background:url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1776&q=80);
+  background-size:cover;
+  background-position:right;
+  background-attachment:fixed;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Playfair Display', serif;
+}
+#header{
+  margin:20px;
+}
+#header>h1{
+  text-align:center;
+  font-size:3rem;
+}
+#header>p{
+  text-align:center;
+  font-size:1.5rem;
+  font-style:italic;
+}
+.containerAc{
+  width:100vw;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  padding:40px 20px;
+}
+.cardAc{
+  display:flex;
+  flex-direction:column;
+  width:400px;
+  margin-bottom:60px;
+}
+.cardTa>div{
+  box-shadow:0 15px 20px 0 rgba(0,0,0,0.5);
+}
+.card-image{
+  width:400px;
+  height:250px;
+}
+.card-image>img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:bottom;
+}
+.card-textAc{
+  margin:-30px auto;
+  margin-bottom:-50px;
+  height:500px;
+  width:300px;
+  background-color:#1D1C20;
+  color:#fff;
+  padding:20px;
+}
+.card-accesorio-typeAc{
+  font-style:italic;
+}
+.card-titleAc{
+  font-size:2.2rem;
+  margin-bottom:20px;
+  margin-top:5px;
+}
+.card-bodyAc{
+  font-size:1.25rem;
+}
+.card-priceAc{
+  width:120px;
+  height:100px;
+  background-color:#970C0A;
+  color:#fff;
+  margin-left:auto;
+  font-size:2rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  align-self: flex-start;
+}

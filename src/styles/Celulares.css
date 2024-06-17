@@ -1,0 +1,28 @@
+.select-container {
+  text-align: right; 
+  list-style: none; 
+  padding: 0;
+  
+}
+.select-estilo {
+  background: none;
+  border: none;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-family: inherit;
+  outline: none;
+  text-decoration: none;
+  display: inline;
+  margin: 20px;
+}
+  
+.select-estilo:hover {
+  color: darkblue;
+  text-decoration:none;
+}
+  
+.select-estilo option {
+  padding: 5px 10px;
+}

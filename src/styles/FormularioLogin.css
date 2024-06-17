@@ -1,0 +1,106 @@
+.account-access {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #7469b6, #8470ba, #9278be, #a080c2, #ad88c6);
+}
+  
+.login-section,
+.register-section {
+    width: 50%;
+    padding: 20px;
+}
+  
+.login-section h2,
+.register-section h2 {
+    color: #fff; /* Ajusta el color según tu preferencia */
+}
+.form-group {
+    margin-bottom: 15px; /* Ajusta el espacio entre los campos como prefieras */
+}
+  
+.form-group label {
+    display: block; /* Hace que la etiqueta se muestre en su propia línea */
+}
+  
+.form-group input {
+    width: 100%; /* Hace que el campo de entrada ocupe todo el ancho del contenedor */
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.botonIni{
+    background: linear-gradient(to bottom, #7469b6, #8470ba, #9278be, #a080c2, #ad88c6);
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    color: white;
+}
+
+.form-group.checkbox {
+    display: flex;
+    align-items: baseline; /* Alinea verticalmente los elementos del formulario */
+    justify-content: flex-start; /* Alinea horizontalmente al inicio */
+}
+  
+.form-group.checkbox input[type="checkbox"] {
+    flex-shrink: 0;
+    width: 20px; /* O el ancho que prefieras */
+    height: 20px;
+    margin-right: 10px; /* Espacio entre la casilla y la etiqueta */
+}
+.social-login-container {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+.social-login {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio entre botones */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-align: start;
+  }
+  .social-login i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+  
+  .google {
+    background-color: #db4437; /* Color de Google */
+  }
+  
+  .facebook {
+    background-color: #3b5998; /* Color de Facebook */
+  }
+  
+  .separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Asegura que el separador ocupe todo el ancho */
+  }
+  
+  .line {
+    height: 1px;
+    width: 40%; /* O el porcentaje que prefieras */
+    background-color: black;
+    margin: 0 5px; /* Añade un margen para separar del círculo */
+  }
+  
+  .circle {
+    padding: 0 5px; /* Ajusta el padding si es necesario */
+  }
+  .boton-registrarse{
+    width: 50%;
+    height: 10%;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    background-color: #db4437; /* Color de Google */
+    border-radius: 10px;
+  }
+  .register-section{
+    text-align: start;
+  }

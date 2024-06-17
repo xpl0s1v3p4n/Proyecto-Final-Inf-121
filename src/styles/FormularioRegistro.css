@@ -1,0 +1,115 @@
+.registration-container {
+  max-width: 550px; /* Ajusta el ancho máximo del formulario */
+  margin-left: 100px; /* Alinea el contenedor a la izquierda */
+  padding: 20px;
+  border: none; /* Borde del contenedor del formulario */
+  border-radius: 4px; /* Bordes redondeados */
+}
+.registration-container h2{
+  display: flex;
+  margin-left: 0;
+}
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+  
+.registration-form input[type="text"],
+.registration-form input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px; /* Espacio entre campos */
+  border: 1px solid #ccc; /* Borde de los campos de entrada */
+  border-radius: 4px; /* Bordes redondeados para los campos de entrada */
+}
+.registration-form .recaptcha-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Espacio antes del botón de registro */
+}
+  
+.registration-form .recaptcha-checkbox input[type="checkbox"] {
+  margin-right: 10px; /* Espacio entre el checkbox y la etiqueta */
+}
+  
+.registration-form button {
+  padding: 10px;
+  width: 70%;
+  background: linear-gradient(to bottom, #7469b6, #8470ba, #9278be, #a080c2, #ad88c6); /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border-color: #7469b6;
+  border-radius: 4px; /* Bordes redondeados para el botón */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+    
+}
+  
+.registration-form button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
+label {
+  display: block; /* Hace que el label use todo el ancho disponible y se coloque encima del input */
+  margin-bottom: 5px; /* Espacio debajo del label */
+  text-align: left; /* Alinea el texto del label a la izquierda */
+}
+
+input[type="nombre"]{
+  width: 100%; /* Ajusta el ancho al contenedor padre */
+  height: 40px; /* Ajusta la altura de los campos de entrada */
+  padding: 5px; /* Espacio interno para el texto dentro del campo */
+  margin-bottom: 15px; /* Espacio entre campos */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.column {
+  flex: 1; /* Los hijos de .row ocuparán un espacio igual */
+  margin-right: 10px; /* Espacio entre columnas */
+}
+.column label {
+  display: block; /* Hace que el label use todo el ancho disponible y se coloque encima del input */
+  margin-bottom: 5px; /* Espacio debajo del label */
+  text-align: left; /* Alinea el texto del label a la izquierda */
+}
+  
+.column:last-child {
+  margin-right: 0; /* Elimina el margen derecho para la última columna */
+}
+
+.column input{
+  width: 100%;
+  height: 50%;
+}
+.selec-reg {
+  width: 100%;
+  height: 50%;
+}
+.social-login2-container2 {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en una columna */
+  align-items: start; /* Centra los elementos horizontalmente */
+}
+.social-login2 {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px; /* Espacio entre botones */
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: start;
+}
+.social-login2 i {
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+  
+.google2 {
+  background-color: #db4437; /* Color de Google */
+}
+  
+.facebook2 {
+  background-color: #3b5998; /* Color de Facebook */
+}
