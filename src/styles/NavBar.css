@@ -34,7 +34,7 @@
 .inicioSesion {
   margin-right: auto; /* Esto empujará la barra de búsqueda hacia la derecha */
   position: absolute;
-  left: 300px;
+  left: 200px;
   top: 0px;
 }
 #basic-nav-dropdown {
